@@ -12,7 +12,7 @@ var nombre;
 
 typeof 30 
 typeof true
-typeof "Diego" 
+typeof "Pablo" 
 typeof nombre 
 typeof null
 typeof {}

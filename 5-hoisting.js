@@ -4,7 +4,7 @@
 // Qué resultado esperas que nos aparezca si corremos este ejemplo? "undefined"
 console.log(miNombre);
 
-var miNombre = "Diego";
+var miNombre = "Pablo";
 
 // Lo que sucede con el hoisting
 
@@ -12,7 +12,7 @@ var miNombre = undefined;
 
 console.log(miNombre + "soy hoisting");
 
-miNombre = "Diego";
+miNombre = "Pablo";
 
 
 // ===  Hoisting con funcionts  ===
@@ -23,7 +23,7 @@ function hey() {
     console.log('Hola ' + miNombre);
 };
 
-var miNombre = 'Diego';
+var miNombre = 'Pablo';
 
 // Lo que sucede con hoisting 
 
@@ -35,4 +35,4 @@ var miNombre;
 
 hey();
 
-miNombre = 'Diego';
+miNombre = 'Pablo';

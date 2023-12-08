@@ -9,7 +9,7 @@
 
 // Ejemplo de lo que es un Scope Global
 
-var miNombre = "Diego"; 
+var miNombre = "Pablo"; 
 
 function nombre() {
     miNombre = "Alonso";
